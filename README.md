@@ -5,7 +5,8 @@ This repository is about to share with you, how do I implement the animation of 
 此Repo是用來紀錄並分享，我是如何在React專案上透過控制Lottie來達到模擬吃角子老虎機的轉動特效。Lottie是由AirBnB所推出的一個套件，用來快速達到UI設計人員所設計的After Effect的特效。如果您對Lottie尚不熟悉，可以考慮先觀看[Lottie's official website](https://airbnb.design/lottie/)
 
 ## Demo
-![Uploading slot-reel-demo3.gif…]()
+![slot-reel-demo3](https://user-images.githubusercontent.com/10906745/111339526-cad21b80-86b2-11eb-9fc2-40b29efed45a.gif)
+
 
 ## Enviroment
   - React: `17.0.1`
