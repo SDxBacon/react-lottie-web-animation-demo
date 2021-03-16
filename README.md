@@ -6,7 +6,7 @@ This repository is about to share with you, how do I implement the animation of 
 
 ## Demo
 
-![slot-reel-demo3](https://user-images.githubusercontent.com/10906745/111337988-86924b80-86b1-11eb-8bcd-3e8b17cc605b.gif)
+![image](https://i.imgur.com/Kzdniei.gif)
 
 ## Enviroment
   - React: `17.0.1`
