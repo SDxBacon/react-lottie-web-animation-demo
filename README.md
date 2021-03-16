@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# React Lottie Web Animation Demo
+This repository is about to share with you, how do I implement the animation of slot reel spinning on my React project with Lottie. If you haven't heard of Lottie yet, you can take a took at [Lottie's official website](https://airbnb.design/lottie/), which is announed by AirBnb, before start reading.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+此Repo是用來紀錄並分享，我是如何在React專案上透過控制Lottie來達到模擬吃角子老虎機的轉動特效。Lottie是由AirBnB所推出的一個套件，用來快速達到UI設計人員所設計的After Effect的特效。如果您對Lottie尚不熟悉，可以考慮先觀看[Lottie's official website](https://airbnb.design/lottie/)
 
-In the project directory, you can run:
+## Demo
 
-### `yarn start`
+![slot-reel-demo3](https://user-images.githubusercontent.com/10906745/111337988-86924b80-86b1-11eb-8bcd-3e8b17cc605b.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Enviroment
+  - React: `17.0.1`
+  - [d3-ease](https://github.com/d3/d3-ease): `2.0.0`
+  - [lodash](https://github.com/lodash/lodash): `4.17.21`
+  - [lottie-react](https://github.com/Gamote/lottie-react): `2.1.0`
+### How to run the project
+### Method 1: run example on local device
+You can choose to clone this repo, and run the example on your local device by executing following command:
+```bash
+# clone the project
+git clone https://github.com/SDxBacon/react-lottie-web-animation-demo.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# enter project directory
+cd react-lottie-web-animation-demo
 
-### `yarn test`
+# install dependencies and start
+yarn && yarn start
+```
+### Method 2: on codesandbox
+CodesandBox -  [https://codesandbox.io/s/react-lottie-web-animation-demo-q5dnv](https://codesandbox.io/s/react-lottie-web-animation-demo-q5dnv)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
